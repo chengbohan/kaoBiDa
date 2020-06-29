@@ -20,6 +20,7 @@
     NSLog(@"EEEEE");
     NSLog(@"HHHHH");
     NSLog(@"HHHHH");
+    NSLog(@"UUUUU");
     // Do any additional setup after loading the view.
 }
 
