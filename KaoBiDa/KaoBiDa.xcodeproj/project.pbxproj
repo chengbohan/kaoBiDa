@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04393A0024AB2887006353BA /* ZXBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043939FE24AB2887006353BA /* ZXBaseVC.m */; };
+		04393A0124AB2887006353BA /* ZXBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043939FF24AB2887006353BA /* ZXBaseVC.xib */; };
+		04393A0524AB29A5006353BA /* ZXHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A0324AB29A5006353BA /* ZXHomeVC.m */; };
+		04393A0624AB29A5006353BA /* ZXHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A0424AB29A5006353BA /* ZXHomeVC.xib */; };
+		04393A0C24AB2D39006353BA /* ZXLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A0A24AB2D39006353BA /* ZXLoginVC.m */; };
+		04393A0D24AB2D39006353BA /* ZXLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A0B24AB2D39006353BA /* ZXLoginVC.xib */; };
+		04393A1924AB2F4B006353BA /* UIImageView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A0F24AB2F4B006353BA /* UIImageView+Category.m */; };
+		04393A1A24AB2F4B006353BA /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A1224AB2F4B006353BA /* UILabel+Category.m */; };
+		04393A1B24AB2F4B006353BA /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A1424AB2F4B006353BA /* UIButton+Category.m */; };
+		04393A1C24AB2F4B006353BA /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A1524AB2F4B006353BA /* UIView+Category.m */; };
+		04393A1D24AB2F4B006353BA /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A1824AB2F4B006353BA /* NSString+Category.m */; };
+		04393A2124AB3713006353BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04393A2024AB3713006353BA /* Main.storyboard */; };
+		04393A2924AB4C53006353BA /* ZXFixPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A2724AB4C53006353BA /* ZXFixPaperVC.m */; };
+		04393A2A24AB4C53006353BA /* ZXFixPaperVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A2824AB4C53006353BA /* ZXFixPaperVC.xib */; };
+		04393A2E24AB4C87006353BA /* ZXCheckOutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A2C24AB4C87006353BA /* ZXCheckOutVC.m */; };
+		04393A2F24AB4C87006353BA /* ZXCheckOutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A2D24AB4C87006353BA /* ZXCheckOutVC.xib */; };
+		04393A3324AB4CAD006353BA /* ZXExpertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A3124AB4CAD006353BA /* ZXExpertVC.m */; };
+		04393A3424AB4CAD006353BA /* ZXExpertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A3224AB4CAD006353BA /* ZXExpertVC.xib */; };
+		04393A3824AB4CBE006353BA /* ZXMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04393A3624AB4CBE006353BA /* ZXMineVC.m */; };
+		04393A3924AB4CBE006353BA /* ZXMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04393A3724AB4CBE006353BA /* ZXMineVC.xib */; };
+		043CCB5424AC1B2A003FC79C /* ZXMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CCB5224AC1B2A003FC79C /* ZXMainVC.m */; };
+		043CCB5524AC1B2A003FC79C /* ZXMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CCB5324AC1B2A003FC79C /* ZXMainVC.xib */; };
+		043CCB5A24AC9627003FC79C /* DLTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CCB5824AC9627003FC79C /* DLTableViewCell.xib */; };
+		043CCB5B24AC9627003FC79C /* DLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CCB5924AC9627003FC79C /* DLTableViewCell.m */; };
+		043CCB5F24AC965A003FC79C /* HomeTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CCB5D24AC965A003FC79C /* HomeTextCell.m */; };
+		043CCB6024AC965A003FC79C /* HomeTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043CCB5E24AC965A003FC79C /* HomeTextCell.xib */; };
 		047C408B24A9A013009F178B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C408A24A9A013009F178B /* AppDelegate.m */; };
 		047C408E24A9A013009F178B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C408D24A9A013009F178B /* SceneDelegate.m */; };
 		047C409124A9A013009F178B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C409024A9A013009F178B /* ViewController.m */; };
-		047C409424A9A013009F178B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C409224A9A013009F178B /* Main.storyboard */; };
 		047C409624A9A017009F178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C409524A9A017009F178B /* Assets.xcassets */; };
 		047C409924A9A017009F178B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C409724A9A017009F178B /* LaunchScreen.storyboard */; };
 		047C409C24A9A017009F178B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C409B24A9A017009F178B /* main.m */; };
 		047C40A624A9A017009F178B /* KaoBiDaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C40A524A9A017009F178B /* KaoBiDaTests.m */; };
 		047C40B124A9A017009F178B /* KaoBiDaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C40B024A9A017009F178B /* KaoBiDaUITests.m */; };
+		2E9F2E9F2B92A3ECC6F790EA /* libPods-KaoBiDa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A84D7E253ECED8420492287 /* libPods-KaoBiDa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043939FD24AB2887006353BA /* ZXBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXBaseVC.h; sourceTree = "<group>"; };
+		043939FE24AB2887006353BA /* ZXBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXBaseVC.m; sourceTree = "<group>"; };
+		043939FF24AB2887006353BA /* ZXBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXBaseVC.xib; sourceTree = "<group>"; };
+		04393A0224AB29A5006353BA /* ZXHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXHomeVC.h; sourceTree = "<group>"; };
+		04393A0324AB29A5006353BA /* ZXHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXHomeVC.m; sourceTree = "<group>"; };
+		04393A0424AB29A5006353BA /* ZXHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXHomeVC.xib; sourceTree = "<group>"; };
+		04393A0724AB2B5E006353BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04393A0924AB2D39006353BA /* ZXLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXLoginVC.h; sourceTree = "<group>"; };
+		04393A0A24AB2D39006353BA /* ZXLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLoginVC.m; sourceTree = "<group>"; };
+		04393A0B24AB2D39006353BA /* ZXLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXLoginVC.xib; sourceTree = "<group>"; };
+		04393A0F24AB2F4B006353BA /* UIImageView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Category.m"; sourceTree = "<group>"; };
+		04393A1024AB2F4B006353BA /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		04393A1124AB2F4B006353BA /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		04393A1224AB2F4B006353BA /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		04393A1324AB2F4B006353BA /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		04393A1424AB2F4B006353BA /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		04393A1524AB2F4B006353BA /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		04393A1624AB2F4B006353BA /* UIImageView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Category.h"; sourceTree = "<group>"; };
+		04393A1724AB2F4B006353BA /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		04393A1824AB2F4B006353BA /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		04393A2024AB3713006353BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04393A2624AB4C53006353BA /* ZXFixPaperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXFixPaperVC.h; sourceTree = "<group>"; };
+		04393A2724AB4C53006353BA /* ZXFixPaperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFixPaperVC.m; sourceTree = "<group>"; };
+		04393A2824AB4C53006353BA /* ZXFixPaperVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXFixPaperVC.xib; sourceTree = "<group>"; };
+		04393A2B24AB4C87006353BA /* ZXCheckOutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXCheckOutVC.h; sourceTree = "<group>"; };
+		04393A2C24AB4C87006353BA /* ZXCheckOutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXCheckOutVC.m; sourceTree = "<group>"; };
+		04393A2D24AB4C87006353BA /* ZXCheckOutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXCheckOutVC.xib; sourceTree = "<group>"; };
+		04393A3024AB4CAD006353BA /* ZXExpertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXExpertVC.h; sourceTree = "<group>"; };
+		04393A3124AB4CAD006353BA /* ZXExpertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXExpertVC.m; sourceTree = "<group>"; };
+		04393A3224AB4CAD006353BA /* ZXExpertVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXExpertVC.xib; sourceTree = "<group>"; };
+		04393A3524AB4CBE006353BA /* ZXMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMineVC.h; sourceTree = "<group>"; };
+		04393A3624AB4CBE006353BA /* ZXMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMineVC.m; sourceTree = "<group>"; };
+		04393A3724AB4CBE006353BA /* ZXMineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXMineVC.xib; sourceTree = "<group>"; };
+		043CCB5124AC1B2A003FC79C /* ZXMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMainVC.h; sourceTree = "<group>"; };
+		043CCB5224AC1B2A003FC79C /* ZXMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMainVC.m; sourceTree = "<group>"; };
+		043CCB5324AC1B2A003FC79C /* ZXMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXMainVC.xib; sourceTree = "<group>"; };
+		043CCB5724AC9627003FC79C /* DLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTableViewCell.h; sourceTree = "<group>"; };
+		043CCB5824AC9627003FC79C /* DLTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLTableViewCell.xib; sourceTree = "<group>"; };
+		043CCB5924AC9627003FC79C /* DLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTableViewCell.m; sourceTree = "<group>"; };
+		043CCB5C24AC965A003FC79C /* HomeTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTextCell.h; sourceTree = "<group>"; };
+		043CCB5D24AC965A003FC79C /* HomeTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTextCell.m; sourceTree = "<group>"; };
+		043CCB5E24AC965A003FC79C /* HomeTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTextCell.xib; sourceTree = "<group>"; };
 		047C408624A9A013009F178B /* KaoBiDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaoBiDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047C408924A9A013009F178B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047C408A24A9A013009F178B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,7 +111,6 @@
 		047C408D24A9A013009F178B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		047C408F24A9A013009F178B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		047C409024A9A013009F178B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		047C409324A9A013009F178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047C409524A9A017009F178B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047C409824A9A017009F178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047C409A24A9A017009F178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +121,9 @@
 		047C40AC24A9A017009F178B /* KaoBiDaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaoBiDaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047C40B024A9A017009F178B /* KaoBiDaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaoBiDaUITests.m; sourceTree = "<group>"; };
 		047C40B224A9A017009F178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311A940FEEE295DB27806A8E /* Pods-KaoBiDa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaoBiDa.debug.xcconfig"; path = "Target Support Files/Pods-KaoBiDa/Pods-KaoBiDa.debug.xcconfig"; sourceTree = "<group>"; };
+		53D273C0157111FBF87DBF66 /* Pods-KaoBiDa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaoBiDa.release.xcconfig"; path = "Target Support Files/Pods-KaoBiDa/Pods-KaoBiDa.release.xcconfig"; sourceTree = "<group>"; };
+		7A84D7E253ECED8420492287 /* libPods-KaoBiDa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KaoBiDa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9F2E9F2B92A3ECC6F790EA /* libPods-KaoBiDa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +152,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043939F624AB26BD006353BA /* 核心组件 */ = {
+			isa = PBXGroup;
+			children = (
+				043939FD24AB2887006353BA /* ZXBaseVC.h */,
+				043939FE24AB2887006353BA /* ZXBaseVC.m */,
+				043939FF24AB2887006353BA /* ZXBaseVC.xib */,
+			);
+			path = "核心组件";
+			sourceTree = "<group>";
+		};
+		043939F724AB26CD006353BA /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A0224AB29A5006353BA /* ZXHomeVC.h */,
+				04393A0324AB29A5006353BA /* ZXHomeVC.m */,
+				04393A0424AB29A5006353BA /* ZXHomeVC.xib */,
+				043CCB5C24AC965A003FC79C /* HomeTextCell.h */,
+				043CCB5D24AC965A003FC79C /* HomeTextCell.m */,
+				043CCB5E24AC965A003FC79C /* HomeTextCell.xib */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		04393A0824AB2D15006353BA /* 登陆注册 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A0924AB2D39006353BA /* ZXLoginVC.h */,
+				04393A0A24AB2D39006353BA /* ZXLoginVC.m */,
+				04393A0B24AB2D39006353BA /* ZXLoginVC.xib */,
+			);
+			path = "登陆注册";
+			sourceTree = "<group>";
+		};
+		04393A0E24AB2E0B006353BA /* 类目拓展 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A1324AB2F4B006353BA /* NSString+Category.h */,
+				04393A1824AB2F4B006353BA /* NSString+Category.m */,
+				04393A1724AB2F4B006353BA /* UIButton+Category.h */,
+				04393A1424AB2F4B006353BA /* UIButton+Category.m */,
+				04393A1624AB2F4B006353BA /* UIImageView+Category.h */,
+				04393A0F24AB2F4B006353BA /* UIImageView+Category.m */,
+				04393A1024AB2F4B006353BA /* UILabel+Category.h */,
+				04393A1224AB2F4B006353BA /* UILabel+Category.m */,
+				04393A1124AB2F4B006353BA /* UIView+Category.h */,
+				04393A1524AB2F4B006353BA /* UIView+Category.m */,
+			);
+			path = "类目拓展";
+			sourceTree = "<group>";
+		};
+		04393A2224AB4B35006353BA /* 填报 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A2624AB4C53006353BA /* ZXFixPaperVC.h */,
+				04393A2724AB4C53006353BA /* ZXFixPaperVC.m */,
+				04393A2824AB4C53006353BA /* ZXFixPaperVC.xib */,
+			);
+			path = "填报";
+			sourceTree = "<group>";
+		};
+		04393A2324AB4B48006353BA /* 测评 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A2B24AB4C87006353BA /* ZXCheckOutVC.h */,
+				04393A2C24AB4C87006353BA /* ZXCheckOutVC.m */,
+				04393A2D24AB4C87006353BA /* ZXCheckOutVC.xib */,
+			);
+			path = "测评";
+			sourceTree = "<group>";
+		};
+		04393A2424AB4B4E006353BA /* 专家 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A3024AB4CAD006353BA /* ZXExpertVC.h */,
+				04393A3124AB4CAD006353BA /* ZXExpertVC.m */,
+				04393A3224AB4CAD006353BA /* ZXExpertVC.xib */,
+			);
+			path = "专家";
+			sourceTree = "<group>";
+		};
+		04393A2524AB4B55006353BA /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				04393A3524AB4CBE006353BA /* ZXMineVC.h */,
+				04393A3624AB4CBE006353BA /* ZXMineVC.m */,
+				04393A3724AB4CBE006353BA /* ZXMineVC.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		043CCB5024AC1ADD003FC79C /* 根页 */ = {
+			isa = PBXGroup;
+			children = (
+				043CCB5124AC1B2A003FC79C /* ZXMainVC.h */,
+				043CCB5224AC1B2A003FC79C /* ZXMainVC.m */,
+				043CCB5324AC1B2A003FC79C /* ZXMainVC.xib */,
+			);
+			path = "根页";
+			sourceTree = "<group>";
+		};
+		043CCB5624AC3BE9003FC79C /* 定制组件 */ = {
+			isa = PBXGroup;
+			children = (
+				043CCB5724AC9627003FC79C /* DLTableViewCell.h */,
+				043CCB5924AC9627003FC79C /* DLTableViewCell.m */,
+				043CCB5824AC9627003FC79C /* DLTableViewCell.xib */,
+			);
+			path = "定制组件";
+			sourceTree = "<group>";
+		};
 		047C407D24A9A013009F178B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +269,8 @@
 				047C40A424A9A017009F178B /* KaoBiDaTests */,
 				047C40AF24A9A017009F178B /* KaoBiDaUITests */,
 				047C408724A9A013009F178B /* Products */,
+				CDF76A22408BAEAA33613447 /* Pods */,
+				280595C565B3D5816CDC2EC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +287,28 @@
 		047C408824A9A013009F178B /* KaoBiDa */ = {
 			isa = PBXGroup;
 			children = (
+				043CCB5624AC3BE9003FC79C /* 定制组件 */,
+				043CCB5024AC1ADD003FC79C /* 根页 */,
+				043939F724AB26CD006353BA /* 主页 */,
+				04393A2224AB4B35006353BA /* 填报 */,
+				04393A2324AB4B48006353BA /* 测评 */,
+				04393A2424AB4B4E006353BA /* 专家 */,
+				04393A2524AB4B55006353BA /* 我的 */,
+				04393A0E24AB2E0B006353BA /* 类目拓展 */,
+				04393A0824AB2D15006353BA /* 登陆注册 */,
+				043939F624AB26BD006353BA /* 核心组件 */,
 				047C408924A9A013009F178B /* AppDelegate.h */,
 				047C408A24A9A013009F178B /* AppDelegate.m */,
 				047C408C24A9A013009F178B /* SceneDelegate.h */,
 				047C408D24A9A013009F178B /* SceneDelegate.m */,
 				047C408F24A9A013009F178B /* ViewController.h */,
 				047C409024A9A013009F178B /* ViewController.m */,
-				047C409224A9A013009F178B /* Main.storyboard */,
 				047C409524A9A017009F178B /* Assets.xcassets */,
+				04393A2024AB3713006353BA /* Main.storyboard */,
 				047C409724A9A017009F178B /* LaunchScreen.storyboard */,
 				047C409A24A9A017009F178B /* Info.plist */,
 				047C409B24A9A017009F178B /* main.m */,
+				04393A0724AB2B5E006353BA /* PrefixHeader.pch */,
 			);
 			path = KaoBiDa;
 			sourceTree = "<group>";
@@ -137,6 +331,23 @@
 			path = KaoBiDaUITests;
 			sourceTree = "<group>";
 		};
+		280595C565B3D5816CDC2EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A84D7E253ECED8420492287 /* libPods-KaoBiDa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDF76A22408BAEAA33613447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				311A940FEEE295DB27806A8E /* Pods-KaoBiDa.debug.xcconfig */,
+				53D273C0157111FBF87DBF66 /* Pods-KaoBiDa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +355,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047C40B524A9A017009F178B /* Build configuration list for PBXNativeTarget "KaoBiDa" */;
 			buildPhases = (
+				1A2580716DCE3B22F9EE1B2B /* [CP] Check Pods Manifest.lock */,
 				047C408224A9A013009F178B /* Sources */,
 				047C408324A9A013009F178B /* Frameworks */,
 				047C408424A9A013009F178B /* Resources */,
@@ -240,9 +452,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04393A3424AB4CAD006353BA /* ZXExpertVC.xib in Resources */,
+				04393A0624AB29A5006353BA /* ZXHomeVC.xib in Resources */,
 				047C409924A9A017009F178B /* LaunchScreen.storyboard in Resources */,
+				04393A2F24AB4C87006353BA /* ZXCheckOutVC.xib in Resources */,
 				047C409624A9A017009F178B /* Assets.xcassets in Resources */,
-				047C409424A9A013009F178B /* Main.storyboard in Resources */,
+				043CCB5524AC1B2A003FC79C /* ZXMainVC.xib in Resources */,
+				04393A3924AB4CBE006353BA /* ZXMineVC.xib in Resources */,
+				04393A2124AB3713006353BA /* Main.storyboard in Resources */,
+				04393A2A24AB4C53006353BA /* ZXFixPaperVC.xib in Resources */,
+				04393A0D24AB2D39006353BA /* ZXLoginVC.xib in Resources */,
+				04393A0124AB2887006353BA /* ZXBaseVC.xib in Resources */,
+				043CCB6024AC965A003FC79C /* HomeTextCell.xib in Resources */,
+				043CCB5A24AC9627003FC79C /* DLTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +484,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A2580716DCE3B22F9EE1B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaoBiDa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		047C408224A9A013009F178B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043CCB5F24AC965A003FC79C /* HomeTextCell.m in Sources */,
+				043CCB5424AC1B2A003FC79C /* ZXMainVC.m in Sources */,
 				047C409124A9A013009F178B /* ViewController.m in Sources */,
+				04393A0024AB2887006353BA /* ZXBaseVC.m in Sources */,
 				047C408B24A9A013009F178B /* AppDelegate.m in Sources */,
+				04393A1C24AB2F4B006353BA /* UIView+Category.m in Sources */,
+				04393A0524AB29A5006353BA /* ZXHomeVC.m in Sources */,
+				04393A2924AB4C53006353BA /* ZXFixPaperVC.m in Sources */,
+				043CCB5B24AC9627003FC79C /* DLTableViewCell.m in Sources */,
 				047C409C24A9A017009F178B /* main.m in Sources */,
 				047C408E24A9A013009F178B /* SceneDelegate.m in Sources */,
+				04393A2E24AB4C87006353BA /* ZXCheckOutVC.m in Sources */,
+				04393A3824AB4CBE006353BA /* ZXMineVC.m in Sources */,
+				04393A1D24AB2F4B006353BA /* NSString+Category.m in Sources */,
+				04393A1924AB2F4B006353BA /* UIImageView+Category.m in Sources */,
+				04393A1A24AB2F4B006353BA /* UILabel+Category.m in Sources */,
+				04393A3324AB4CAD006353BA /* ZXExpertVC.m in Sources */,
+				04393A0C24AB2D39006353BA /* ZXLoginVC.m in Sources */,
+				04393A1B24AB2F4B006353BA /* UIButton+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +568,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		047C409224A9A013009F178B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				047C409324A9A013009F178B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		047C409724A9A017009F178B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,10 +691,13 @@
 		};
 		047C40B624A9A017009F178B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311A940FEEE295DB27806A8E /* Pods-KaoBiDa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7874JFJPD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KaoBiDa/PrefixHeader.pch";
 				INFOPLIST_FILE = KaoBiDa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,10 +711,13 @@
 		};
 		047C40B724A9A017009F178B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D273C0157111FBF87DBF66 /* Pods-KaoBiDa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7874JFJPD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KaoBiDa/PrefixHeader.pch";
 				INFOPLIST_FILE = KaoBiDa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,7 +7,8 @@
 //
 
 #import "SceneDelegate.h"
-
+#import "ZXMainVC.h"
+#import "ZXLoginVC.h"
 @interface SceneDelegate ()
 
 @end
@@ -19,6 +20,31 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self _initOB];
+    [[NSNotificationCenter defaultCenter] postNotificationName:ACCOUNT_LOGIN_CHANGED object:@(YES)];
+    [self.window makeKeyAndVisible];
+}
+
+
+- (void)_initOB {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginStateChange:) name:ACCOUNT_LOGIN_CHANGED object:nil];
+}
+
+- (void)loginStateChange:(NSNotification *)notif {
+    UINavigationController *nav = nil;
+    BOOL loginSuc = [notif.object boolValue];
+    if (loginSuc) {
+        ZXMainVC *homeVC = [ZXMainVC new];
+        nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+        self.window.rootViewController = nav;
+    } else {
+        ZXLoginVC *loginVC = [ZXLoginVC new];
+        nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        self.window.rootViewController = nav;
+    }
+    
 }
 
 

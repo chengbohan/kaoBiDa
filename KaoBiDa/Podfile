@@ -1,0 +1,6 @@
+platform :ios, '12.0'
+
+
+target 'KaoBiDa' do
+    pod 'Masonry', '1.1'
+end
